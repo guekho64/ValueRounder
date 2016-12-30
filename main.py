@@ -1,8 +1,5 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
-
-### If you're going to make use of this piece of code, it's ok, just, If you want to make me feel proud of my work, make sure you add a comment above this code (Like this one) mentioning my username, something like "guekho64", so if for coincidence I find your project and read its source code, it'll feel great to read that line of code! (It really doesn't matter if you only add my username alone or with extra text, it'll be good anyways :D) ###
-
 import random
 
 class Funcs():
@@ -59,10 +56,9 @@ class Funcs():
 					a[a.index(i)] = 0
 				elif i < 10:
 					l.append(0)
-					
 if __name__ == '__main__':
 	#Just as an example
 	Functions = Funcs()
-	random = random.random()*(random.random()*1000)
+	random = 9999.44444444445
 	print "Original:%s" % str(random)
 	print "Result:%s" % str(Functions.round(random))
