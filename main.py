@@ -59,6 +59,6 @@ class Funcs():
 if __name__ == '__main__':
 	#Just as an example
 	Functions = Funcs()
-	random = 9999.44444444445
+	random = float(random.random())
 	print "Original:%s" % str(random)
 	print "Result:%s" % str(Functions.round(random))
