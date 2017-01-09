@@ -3,7 +3,7 @@ Just a value rounder for python made for myself. Made for fun.
 
 Only supports positive numbers, for now.
 
-Rounds decimal digits >= 5 to the next possible value. Digits < 5 are deleted.
+Rounds decimal digits >= 5 to the next possible value. Digits < 5 are ignored.
 
 E.g
 
